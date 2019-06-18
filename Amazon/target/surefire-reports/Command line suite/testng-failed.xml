@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="amazonPackTest.BrowserProductpageTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="afterEachTestMethod"/>
+          <include name="init"/>
+          <include name="setSerachfieldTest"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="quitDriver"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonPackTest.BrowserProductpageTest -->
+      <class name="amazonPackTest.AccountTest">
+        <methods>
+          <include name="SetloginTest"/>
+          <include name="setupDriver"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initi"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="quitDriver"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonPackTest.AccountTest -->
+      <class name="amazonPackTest.AutosaggestionpageTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="init"/>
+          <include name="afterEachTestMethod"/>
+          <include name="extentSetup"/>
+          <include name="setDealsTest"/>
+          <include name="generateReport"/>
+          <include name="quitDriver"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonPackTest.AutosaggestionpageTest -->
+      <class name="amazonPackTest.VerifyItemPageTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setVerifyItemTest"/>
+          <include name="afterEachTestMethod"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="quitDriver"/>
+          <include name="init"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonPackTest.VerifyItemPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

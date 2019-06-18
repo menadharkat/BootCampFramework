@@ -15,7 +15,14 @@
     <test name=" Amazon Home">
         <classes>
 
-            <class name="amazonPackTest.AccountTest"/>
+<!--            <class name="amazonPackTest.AccountTest"/>-->
+<!--            <class name="amazonPackTest.AutosaggestionpageTestageTest"/>-->
+<!--            <class name="amazonPackTest.BrowserProductpageTest"/>-->
+            <class name="amazonPackTest.VerifyItemPageTest"/>
+
+
+
+
 
         </classes>
     </test>
