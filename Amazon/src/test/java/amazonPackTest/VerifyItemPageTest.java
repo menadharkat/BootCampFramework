@@ -20,7 +20,7 @@ public class VerifyItemPageTest extends CommonAPI {
 
     @Test
     public void setVerifyItemTest() {
-        verifyItem.setSerachfield("soccer ball");
+        verifyItem.setSerachfield("guitare godin");
         sleepFor(2);
         verifyItem.setSubmit();
         sleepFor(2);

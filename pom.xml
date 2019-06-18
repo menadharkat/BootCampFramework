@@ -11,11 +11,15 @@
     <modules>
         <module>Amazon</module>
         <module>Facebook</module>
-        <module>Cigna</module>
         <module>Citibank</module>
         <module>Generic</module>
         <module>Cnn</module>
         <module>Generic2</module>
+        <module>Cigna1</module>
+        <module>Facebook</module>
+        <module>Facebook</module>
+        <module>Facebook</module>
+        <module>Facebook</module>
     </modules>
     <dependencyManagement>
         <dependencies>

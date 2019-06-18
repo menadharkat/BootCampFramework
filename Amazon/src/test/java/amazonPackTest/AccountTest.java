@@ -18,8 +18,8 @@ public class AccountTest extends CommonAPI {
     @Test
     public void SetloginTest(){
     account.setAcountclick();
-    account.setlogein("akli@asdfg.com","abcd1234");
-    sleepFor(5);
+    account.setlogein("menad@gmail.com","password");
+    sleepFor(3);
 
     }
 

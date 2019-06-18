@@ -19,8 +19,8 @@ public class AutosaggestionpageTest extends CommonAPI {
         autosuggestionpage.setDeals();
         autosuggestionpage.setDetails();
         autosuggestionpage.setVerify();
-        autosuggestionpage.setEmail("akliayanelay");
-        autosuggestionpage.setPass("akli123456");
+        autosuggestionpage.setEmail("menad");
+        autosuggestionpage.setPass("pass123");
         autosuggestionpage.setSubmit();
     }
 }

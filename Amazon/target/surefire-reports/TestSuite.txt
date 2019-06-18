@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 4, Errors: 0, Skipped: 21, Time elapsed: 0.838 sec <<< FAILURE!
-setupDriver(amazonPackTest.AutosaggestionpageTest)  Time elapsed: 0.675 sec  <<< FAILURE!
+Tests run: 25, Failures: 4, Errors: 0, Skipped: 21, Time elapsed: 1.065 sec <<< FAILURE!
+setupDriver(amazonPackTest.AutosaggestionpageTest)  Time elapsed: 0.835 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'platform' is required by BeforeMethod on method setupDriver but has not been marked @Optional or defined
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
@@ -41,7 +41,7 @@ Parameter 'platform' is required by BeforeMethod on method setupDriver but has n
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-setupDriver(amazonPackTest.BrowserProductpageTest)  Time elapsed: 0.679 sec  <<< FAILURE!
+setupDriver(amazonPackTest.BrowserProductpageTest)  Time elapsed: 0.836 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'platform' is required by BeforeMethod on method setupDriver but has not been marked @Optional or defined
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
@@ -80,7 +80,7 @@ Parameter 'platform' is required by BeforeMethod on method setupDriver but has n
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-setupDriver(amazonPackTest.AccountTest)  Time elapsed: 0.68 sec  <<< FAILURE!
+setupDriver(amazonPackTest.AccountTest)  Time elapsed: 0.837 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'platform' is required by BeforeMethod on method setupDriver but has not been marked @Optional or defined
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
@@ -119,7 +119,7 @@ Parameter 'platform' is required by BeforeMethod on method setupDriver but has n
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-setupDriver(amazonPackTest.VerifyItemPageTest)  Time elapsed: 0.683 sec  <<< FAILURE!
+setupDriver(amazonPackTest.VerifyItemPageTest)  Time elapsed: 0.837 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Parameter 'platform' is required by BeforeMethod on method setupDriver but has not been marked @Optional or defined
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)

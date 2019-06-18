@@ -2,15 +2,15 @@
 <testng-results skipped="4" failed="0" ignored="6" total="10" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[Extent Report Directory/Users/user/Documents/BootCampFrameWork/Amazon/target/surefire-reports/html]]>
+      <![CDATA[Extent Report Directory/Applications/IntelliJ IDEA CE.app/Contents/bin/BootCampFrameWork/Amazon/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="33" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+  <suite name="Command line suite" duration-ms="58" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="33" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+    <test name="Command line test" duration-ms="58" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
       <class name="amazonPackTest.BrowserProductpageTest">
-        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -62,15 +62,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="SKIP" signature="init()[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="init" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="init()[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="init" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="setSerachfieldTest()[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="setSerachfieldTest" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setSerachfieldTest()[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="setSerachfieldTest" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -122,17 +130,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setSerachfieldTest -->
-        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.BrowserProductpageTest@90f6bfd]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
       </class> <!-- amazonPackTest.BrowserProductpageTest -->
       <class name="amazonPackTest.AccountTest">
-        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -184,19 +184,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="initi()[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="initi" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="SKIP" signature="initi()[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="initi" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initi -->
-        <test-method status="SKIP" signature="SetloginTest()[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="SetloginTest" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="SetloginTest()[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="SetloginTest" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -248,13 +252,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetloginTest -->
-        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.AccountTest@47f6473]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
       </class> <!-- amazonPackTest.AccountTest -->
       <class name="amazonPackTest.AutosaggestionpageTest">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="extentSetup" is-config="true" duration-ms="365" started-at="2019-06-18T20:00:16Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="extentSetup" is-config="true" duration-ms="439" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <params>
             <param index="0">
               <value>
@@ -264,11 +264,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Extent Report Directory/Users/user/Documents/BootCampFrameWork/Amazon/target/surefire-reports/html]]>
+              <![CDATA[Extent Report Directory/Applications/IntelliJ IDEA CE.app/Contents/bin/BootCampFrameWork/Amazon/target/surefire-reports/html]]>
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -320,15 +320,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="SKIP" signature="init()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="init" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="init()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="init" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="setDealsTest()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="setDealsTest" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="setDealsTest()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="setDealsTest" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -380,21 +380,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDealsTest -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="SKIP" signature="generateReport()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:amazonPackTest.AutosaggestionpageTest@4157f54e]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:14Z" finished-at="2019-06-18T20:13:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- amazonPackTest.AutosaggestionpageTest -->
       <class name="amazonPackTest.VerifyItemPageTest">
-        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -446,15 +446,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="init()[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="init" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="init()[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="init" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="setVerifyItemTest()[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="setVerifyItemTest" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="setVerifyItemTest()[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="setVerifyItemTest" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -506,11 +506,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setVerifyItemTest -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:00:17Z" finished-at="2019-06-18T20:00:17Z">
+        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:amazonPackTest.VerifyItemPageTest@15975490]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-06-18T20:13:13Z" finished-at="2019-06-18T20:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

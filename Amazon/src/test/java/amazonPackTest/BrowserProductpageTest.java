@@ -18,17 +18,17 @@ public class BrowserProductpageTest extends CommonAPI {
     public void setSerachfieldTest(){
 
         browseProductpage .setSerachfield();
-        browseProductpage .setSearchfield1("sun glasses");
+        browseProductpage .setSearchfield1("guitare gofin");
         browseProductpage .setSearch();
         browseProductpage .setGlasses();
         browseProductpage .setAddcart();
-        sleepFor(2);
+        sleepFor(3);
         browseProductpage .setCheckout();
-        sleepFor(2);
-        browseProductpage .setEmail("Akli@Selenium.com");
-        sleepFor(2);
-        browseProductpage .setPassword("Akli123456");
+        sleepFor(3);
+        browseProductpage .setEmail("menad@gmail.com");
+        sleepFor(3);
+        browseProductpage .setPassword("Apassword123");
         browseProductpage .setSubmit();
-        sleepFor(2);
+        sleepFor(3);
     }
 }
